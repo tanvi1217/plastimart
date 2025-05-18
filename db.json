@@ -1,0 +1,93 @@
+{
+    "cart": {
+        "rajat": [
+            {
+                "name": "Recycled Plastic Sheet (1m\u00b2)",
+                "price": 350,
+                "img": "assets/plastic_sheet.jpg",
+                "quantity": 2
+            },
+            {
+                "name": "Plastic Waste Art Frame",
+                "price": 180,
+                "img": "assets/art_frame.jpg",
+                "quantity": 1
+            }
+        ]
+    },
+    "users": [
+        "rajat",
+        "rajat123"
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "user": "rajat",
+            "items": [
+                {
+                    "name": "Bamboo Toothbrush",
+                    "price": 50,
+                    "quantity": 1
+                },
+                {
+                    "name": "Reusable Bag",
+                    "price": 120,
+                    "quantity": 1
+                },
+                {
+                    "name": "Organic Soap",
+                    "price": 80,
+                    "quantity": 1
+                }
+            ],
+            "time": "2025-05-04 19:21:25",
+            "status": "Order Placed"
+        },
+        {
+            "id": 2,
+            "user": "rajat",
+            "items": [
+                {
+                    "name": "Reusable Bag",
+                    "price": 120,
+                    "quantity": 1
+                }
+            ],
+            "time": "2025-05-04 19:36:44",
+            "status": "Order Placed"
+        },
+        {
+            "id": 3,
+            "user": "rajat",
+            "items": [
+                {
+                    "name": "Recycled Plastic Bricks",
+                    "price": 100,
+                    "img": "assets/plastic_bricks.jpg",
+                    "quantity": 1
+                },
+                {
+                    "name": "Plastic Bottle Planters",
+                    "price": 60,
+                    "img": "assets/planters.jpg",
+                    "quantity": 1
+                },
+                {
+                    "name": "Upcycled Tote Bag (Plastic)",
+                    "price": 120,
+                    "img": "assets/plastic_bag.jpg",
+                    "quantity": 1
+                }
+            ],
+            "time": "2025-05-18 06:55:13",
+            "status": "Order Placed",
+            "shipping": {
+                "name": "rajat",
+                "address": "xyz gk e jkje",
+                "city": "Bramhapuri",
+                "pincode": "342422"
+            },
+            "payment_status": "Paid"
+        }
+    ]
+}
