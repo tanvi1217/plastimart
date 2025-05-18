@@ -6,7 +6,7 @@ from langchain_core.messages import SystemMessage, HumanMessage
 # ✅ Securely load API key
 model = ChatOpenAI(
     model="gpt-3.5-turbo",
-    openai_api_key= os.getenv("OPENAI_API_KEY"))
+    openai_api_key= "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"
 
 # ✅ Render EcoBot chat inside sidebar
 def render_ecobot():
