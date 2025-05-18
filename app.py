@@ -59,8 +59,7 @@ Use the sidebar to navigate through the app:
 """)
 
 # ✅ Load OpenAI API Key and model
-model = ChatOpenAI(model="gpt-3.5-turbo", openai_api_key="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"
-)
+model = ChatOpenAI(model="gpt-3.5-turbo", openai_api_key=os.getenv("OPENAI_API_KEY"))
 
 # ✅ Sidebar: EcoBot Chat Assistant
 with st.sidebar.expander("🤖 EcoBot - Chat with our Assistant", expanded=False):
